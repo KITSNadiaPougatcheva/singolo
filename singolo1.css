@@ -1,0 +1,197 @@
+@font-face {
+	font-family: "Lato";
+	src: url("assets/Lato-Bold.ttf");
+}
+
+body {
+	margin: 0;
+}
+
+.header {
+	width: 1020px;
+	height: 89px;
+	background-color: #2d303a;
+	margin: 0;
+}
+.header-bottom {
+	width: 1020px;
+	height: 6px;
+	background-color: #323746;
+	margin: 0;
+}
+
+.main-logo {
+	display: inline-block;			
+	margin: 40px;
+	font-size: 25px;
+	line-height: 6px;
+	color: #ffffff;
+	font-family: "Lato";
+	font-weight: 700;
+	text-align: left;
+}
+
+.main-logo .asterix {
+	color:#f06c64;
+}
+
+.main-nav {			
+	float: right;
+	font-weight: 700;
+	text-align: left;
+	margin-top: 40px;
+	margin-right: 25px;
+}
+.main-nav li {
+	list-style-type:none;
+	display: inline-block;
+}
+.main-nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 6px;
+	font-family: "Lato";
+	color: #ffffff;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.main-nav li a:hover {
+	color: #f06c64;
+}
+
+section.slider {
+	width: 1020px;
+	height: 600px;
+	background-color: #f06c64;
+}
+
+ul.slider {
+	margin-top: 0px;
+	display: flex;
+	align-items: center; 
+	position: relative;
+	top: 60px;
+}
+ul.slider li {
+	list-style-type:none;
+	display: inline-block;
+}
+ul.slider li a {
+	list-style-type:none;
+	display: inline-block;
+}
+.slider-bottom {
+	width: 1020px;
+	height: 15px;
+	background-color: #ea676b;			
+}
+
+.slider li.left {
+	margin-right: 40px;
+}
+
+.slider li.right {
+	margin-left: 40px;
+}
+.slider li.arrow {
+	opacity: 0.4;
+}
+.slider li.arrow:hover {
+	opacity: 0.8;
+}
+
+.slider li.slide {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.footer {
+	width: 1020px;
+	height: 495px;
+	background-color: #f2f2f2;			
+}
+.footer-bottom {
+	width: 1020px;
+	height: 6px;
+	background-color: #ffffff;
+}
+
+.our-services-section {
+	position: relative;
+	left: 40px;
+	top: 55px;
+}
+
+.our-services {
+	font-size: 30px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: left;
+	display: inline-block;
+}
+
+.our-services-descr {
+	width: 940px;
+	height: 57px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: left;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+ul.services {
+	margin-top: 20px;
+	padding: 0px;
+	display: flex;
+	align-items: center; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+ul.services li.service-box {
+	list-style-type:none;
+	display: inline-block;
+	width: 300px;
+	height: 90px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+}
+ul.services li.service-icon {
+	list-style-type:none;
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+}
+
+.service-description {
+	width: 200px;
+	height: 128px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 400;
+	text-align: left;
+}
+.service-title {
+	font-size: 18px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: left;
+	margin: 0px;		
+}
+
+img.service-icon {
+	float: left;
+	margin-right: 20px;
+}
