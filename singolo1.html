@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width-device, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Singolo 1</title>
 	<link rel="stylesheet" href="singolo1.css">
 </head>
@@ -15,7 +15,7 @@
 				<li><a href="#services">services</a></li>
 				<li><a href="#portfolio">portfolio</a></li>
 				<li><a href="#about">about</a></li>
-				<li><a href="#contact">contact</a></li>
+				<li><a href="#contact-form">contact</a></li>
 			<ul>
 		</div>
 		<div class="header-bottom"/>
@@ -24,24 +24,27 @@
 	<main>
 
 	<section class="slider">
+		<div class="slider">
+		<h2 class="hidden-title">Slider</h2>
 		<ul class="slider">
 			<li class="arrow left"><a href="#"><img src="assets/arrow-left.png"></a></li>
 			<li class="slide"><a href="#"><img src="assets/iPhone Vertical1.png"></a></li>
 			<li class="slide"><a href="#"><img src="assets/iPhone Horizontal1.png"></a></li>
 			<li class="arrow right"><a href="#"><img src="assets/arrow-right.png"></a></li>
 		</ul>
-	</section>
-	<section class="slider-bottom">
-	</section>
+		</div>
+		<div class="slider-bottom">
+		</div>
+		</section>
 
-	<section class="footer">
-		<span class="our-services-section">
-			<span class="our-services">Our services</span>
-			<span class="our-services-descr">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. 
+	<section class="services" id="services">
+		<div class="our-services-section">
+			<h2 class="our-services">Our services</h2>
+			<div class="our-services-descr">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. 
 				Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
-				Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span>
+				Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
 
-			<span class="services">
+			<div class="services">
 				<ul class="services">
 					<li class="service-box">
 						<div class="service-icon">
@@ -73,9 +76,6 @@
                                 Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</span>
 						</div>
 					</li>
-
-
-
                     <li class="service-box">
 						<div class="service-icon">
 							<img class="service-icon" src="assets/phone.png">
@@ -108,13 +108,63 @@
 					</li>
 				</ul>
 
-			</span>
-		</span>
-	</section>
-	<section class="footer-bottom">
-	</section>
+			</div>
+		</div>
+		<div class="services-bottom">
+		</div>
+		</section>
+
+		<section class="contact-form" id="contact-form">
+			
+			<div class="contact-form">
+				<h2>Get a Quote</h2>
+				<div class="description">
+					Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, 
+					non commodo luctus, nisi erat porttitor ligula, 
+					eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+				</div>
+
+				<div class="form">
+					<ul>
+						<li>
+				<form name="contact-form" action="#" method="POST">
+					<input name="name" class="contact-form name" type="text" placeholder="Name (Required)">
+					<input name="email" class="contact-form email" type="email" placeholder="Email (Required)">
+					<input name="subject" class="contact-form subject" type="text" placeholder="Subject">
+					<textarea name="body" class="contact-form-body">Describe your project in detail...</textarea>
+				</form>
+				</li>
+				<li>
+				<div class="contact-form-info">
+					<h3 class="contact-form-info">Contact Information</h3>
+					<p class="contact-form-info text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. 
+						Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. 
+						Morbi at aliquet turpis, et consequat felis. 
+					</p>
+					
+					<p class="contact-form-info address"><img class="contact-form-info" src="assets/info-location.png">Elm St. 14/05 Lost City</p>
+					<p class="contact-form-info phone"><img class="contact-form-info"src="assets/info-phone.png">03528 331 86 35</p>
+					<p class="contact-form-info email"><img class="contact-form-info" src="assets/info-mail.png">info@singolo.com</p>
+				</div>
+				</li>
+				</ul>
+			</div>
+			</div>
+		</section>
+
 	</main>
 	
+	<footer>
+		<div class="footer">
+			<p>© Copyright 2013 · by PSDchat.com</p>
+			<ul class="social-media">
+				<li><a href="#"><img src="assets/facebook.png"></a></li>
+				<li><a href="#"></a><img src="assets/google.png"></a></li>
+				<li><a href="#"></a><img src="assets/twitter.png"></a></li>
+				<li><a href="#"></a><img src="assets/linkedin.png"></a></li>
+			<ul>
+		</div>
+	</footer>
 
 </body>
 </html>
