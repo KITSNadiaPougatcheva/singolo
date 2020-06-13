@@ -342,7 +342,11 @@ h3.contact-form-info {
 	margin-top: 5px;
 }
 
-p.contact-form-info {
+p.contact-form-info a {
+	text-decoration: none;
+}
+
+p.contact-form-info, p.contact-form-info a {
 	max-width: 300px;
 	font-size: 12px;
 	line-height: 22px;
@@ -353,6 +357,7 @@ p.contact-form-info {
 	margin-top: 5px;
 	margin-bottom: 0;
 }
+
 
 p.contact-form-info.text {
 	margin-bottom: 20px;
@@ -395,4 +400,9 @@ ul.social-media li {
 
 ul.social-media img {
 	margin-left: 10px;
+	opacity: 0.5;
+}
+
+ul.social-media img:hover {
+	opacity: 1;
 }
