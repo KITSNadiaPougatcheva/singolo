@@ -25,8 +25,8 @@ div.header {
 	margin: 0;
 }
 
-.main-logo {
-	display: inline-block;			
+.header--logo {
+	display: inline-block;
 	margin: 40px;
 	font-size: 25px;
 	line-height: 6px;
@@ -34,24 +34,37 @@ div.header {
 	font-family: "Lato";
 	font-weight: 700;
 	text-align: left;
+	text-decoration: none;
 }
 
-.main-logo .asterix {
+.header--logo a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.header--logo .asterix {
 	color:#f06c64;
 }
 
-.main-nav {			
+nav.header--navigation {
+	/* display: inline-block; */
 	float: right;
+	margin: 0;
+}
+
+ul.navigation {
+	display: inline-block;		
+	/* float: right; */
 	font-weight: 700;
 	text-align: left;
 	margin-top: 40px;
 	margin-right: 25px;
 }
-.main-nav li {
+.navigation li {
 	list-style-type:none;
 	display: inline-block;
 }
-.main-nav li a {
+.navigation li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -61,7 +74,7 @@ div.header {
 	margin-left: 15px;
 	margin-right: 10px;
 }
-.main-nav li a:hover {
+.navigation li a:hover {
 	color: #f06c64;
 }
 
@@ -98,6 +111,7 @@ ul.slider li a {
 	list-style-type:none;
 	display: inline-block;
 }
+
 .slider-bottom {
 	width: 100%;
 	height: 15px;
